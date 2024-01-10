@@ -1,0 +1,80 @@
+body{
+    font-family: 'verdana';
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(LA\ REALITE.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: inline;
+    
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+footer{
+    height: 800%;
+    padding-top: 30%;
+    text-align: center;
+    background-color: #c5c5c5;
+
+}
+header{
+    height: 100PX;
+}
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+
+
+nav lu{
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    list-style-type:none ;
+    float: left;
+
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px ;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.t{
+    display: table;
+    margin: 0 auto;
+}
+.m:hover{
+    border-top: 5px solid #4c8;
+    background-color: rgba(64,200,130,0.15);
+
+
+}
+.n:hover{
+    border-top: 5px solid rgb(17, 226, 31);
+    background-color: rgba(28, 220, 11, 0.318);
+}
+.o:hover{
+    border-top: 5px solid rgb(17, 202, 226);
+    background-color: rgba(11, 178, 220, 0.252);
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+.l:hover{
+    border-top: 5px solid rgb(212, 240, 3);
+    background-color: rgba(235, 252, 4, 0.252);
+}

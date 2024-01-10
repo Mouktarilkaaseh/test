@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0C0C0C; /* Fond sombre */
+    color: #FFFFFF; /* Texte clair */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #E50914; /* Rouge pour les titres */
+}
+
+/* Ajustements pour afficher les films côte à côte avec informations en colonne */
+.film-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacement entre les films */
+    max-width: 100%; /* Utilise la largeur complète de l'écran */
+    margin: 20px auto;
+    background-color: #1C1C1C; /* Fond des conteneurs de film */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: center; /* Centrer les éléments enfants verticalement */
+}
+
+/* Ajustement pour afficher les informations en colonne */
+.film-container > * {
+    flex: 1; /* Chaque élément enfant prend la largeur totale */
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.reserve-btn {
+    background-color: #E50914; /* Rouge pour le bouton de réservation */
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles supplémentaires spécifiques aux films */
+.film-container h3 {
+    color: #E50914; /* Rouge pour les titres de film */
+}
+
+.film-container p {
+    margin: 5px 0;
+}
+
+.bouton {
+    background-color: #E50914; /* Rouge pour le bouton de réservation dans chaque film */
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Ajustez la largeur du conteneur de film ici */
+.film-container {
+    width: 45%; /* Par exemple, réglez la largeur à 45% */
+}

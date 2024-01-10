@@ -1,0 +1,52 @@
+td{
+    border: 1px solid black;
+   padding : 10px;
+   
+}
+table{
+    margin : 0px auto;
+    padding: 3px;
+    border: 20px solid orangered;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    background-color: burlywood;
+    font-weight: bold;
+    box-shadow: 5px 4px 3px gold;
+}
+h1{
+    text-align: center;
+   
+}
+span{
+    border: 3px solid silver;
+    background-color: lime;
+    box-shadow: 7px 4px 2px pink;
+}
+body{
+    body {
+        background-image: url(yamal.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+input{
+    width: 280px;
+}
+input[type="submit"],input[type="reset"]{
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.wa{
+    margin-top:400px;
+}
